@@ -1,5 +1,5 @@
 # Use the frooodle/s-pdf image as the base
-FROM frooodle/s-pdf:latest-fat
+FROM stirlingtools/stirling-pdf:latest-fat
 
 # Install Tini to manage processes
 RUN apk add --no-cache tini
